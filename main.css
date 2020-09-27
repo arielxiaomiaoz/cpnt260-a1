@@ -1,0 +1,113 @@
+html{
+    @media only screen and (max-width:600px);
+    font-size:20px;
+    /* font-size: 62.5%; */
+
+}
+
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav{
+    display:flex;
+}
+
+nav ul{
+    display: flex;
+    margin-top: 0;
+    list-style-type: none;
+    gap: 1em;
+}
+
+
+nav a{
+    padding: 2rem 0.5rem;
+    color: #104f52;
+    /* contrast ratio: 9.28:1 */
+    font-family: 'Peddana', serif,'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+nav a:active{
+    background-color: hsl(202, 79%, 83%);
+    color: hsl(209, 77%, 63%);
+}
+nav a:hover{
+    text-decoration:underline;
+    background-color:#fcd7b924;
+  }
+
+.banner{
+    background-image:
+    linear-gradient(white,transparent ),url(https://picsum.photos/id/517/800/300);
+    /* url(https://picsum.photos/id/517/800/300/); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.banner h1{
+    display: flex;
+    justify-content: center;
+    font-variant: small-caps;
+    font-family: 'Playfair Display', serif, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    color: #a24b11fb;
+    /* contrast ratio 5.9:1 */
+    line-height: 25vh;
+}
+
+.banner p{
+    font-family: 'Peddana', serif,'Times New Roman', Times, serif;
+    font-size:1.4rem;
+    color: hsl(251, 89%, 7%);
+}
+.container{
+    font-family: 'Peddana', serif,'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.image{
+    padding-top:20px;
+    padding-right: 20px;
+}
+
+.button {
+    color: #444444;
+    /* contrast ratio:9.73:1 */
+    background: #F3F3F3;
+    border: 1px #DADADA solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    outline: none;
+    white-space: nowrap;
+}
+
+.button:hover {
+    border: 1px #C6C6C6 solid;
+    box-shadow: 1px 1px 1px #EAEAEA;
+    color: #333333;
+    background: #F7F7F7;
+}
+
+.button:active {
+    box-shadow: inset 1px 1px 1px #DFDFDF;   
+}
+
+body{
+  padding-bottom: 5vh;
+  word-wrap: break-word;
+  }
